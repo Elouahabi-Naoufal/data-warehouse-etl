@@ -13,7 +13,7 @@
   </a>
 
   <p align="center">
-    Planned end-to-end data warehouse: 27 Excel workbooks to Snowflake, modelled with SQL and dbt, served in Power BI.
+    Planned end-to-end data warehouse: 27 Excel sheets to Snowflake, modelled with SQL and dbt, served in Power BI.
     <br />
     <a href="https://github.com/Elouahabi-Naoufal/data-warehouse-etl"><strong>Explore the repository »</strong></a>
     <br />
@@ -51,7 +51,7 @@ This repository is the project space for a fourth-year PFM project at EMSI (seme
 
 The target design is a classic layered warehouse. Pentaho handles extraction and the initial load, SQL provides the dimensional model, dbt builds and tests the transformation layers, and Power BI serves the reporting marts. The repository is currently a scaffold: it contains only a `.gitkeep` placeholder and no implementation.
 
-* Source: 27 Excel workbooks describing the operational system.
+* Source: 27 Excel sheets describing the operational system.
 * Storage and compute: Snowflake.
 * Transformation: SQL modelling plus dbt models and tests.
 * Reporting: Power BI dashboards.
